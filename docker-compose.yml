@@ -1,0 +1,16 @@
+
+version: '3.8'
+services:
+  web:
+    build:
+      context: ./
+      target: runner
+    env_file:
+      - .env.local
+    volumes:
+      - .:/app
+    command: npm run start
+    ports:
+      - "3002:3000"
+    environment:
+      NODE_ENV: development

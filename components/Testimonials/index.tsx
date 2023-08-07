@@ -5,29 +5,26 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+    name: "DongTQ",
+    designation: "Founder @UraaSoft",
+    content: "Frontend React, NextJs",
+    image: "/images/blog/author-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+    name: "DongTQ",
+    designation: "Founder @UraaAI",
+    content: "Backend Golang, .NET, Java",
+    image: "/images/blog/author-01.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+    name: "DongTQ",
+    designation: "Founder @UraaIoT",
+    content: "QC, QA, Devops",
+    image: "/images/blog/author-01.png",
     star: 5,
   },
 ];
@@ -36,11 +33,7 @@ const Testimonials = () => {
   return (
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-        />
+        <SectionTitle title="Our Team Members" paragraph="" center />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
@@ -48,7 +41,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-      <div className="absolute top-5 right-0 z-[-1]">
+      <div className="absolute right-0 top-5 z-[-1]">
         <svg
           width="238"
           height="531"
@@ -102,7 +95,7 @@ const Testimonials = () => {
           </defs>
         </svg>
       </div>
-      <div className="absolute left-0 bottom-5 z-[-1]">
+      <div className="absolute bottom-5 left-0 z-[-1]">
         <svg
           width="279"
           height="106"

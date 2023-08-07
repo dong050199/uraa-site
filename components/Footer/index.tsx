@@ -12,25 +12,10 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="images/logo/logo.svg"
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  />
+                <Link href="/" className="mb-8 inline-block hidden px-7 py-3 text-xl font-bold text-dark hover:opacity-70 dark:text-white md:block">
+                    UraaTeam
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -205,13 +190,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-primary/10 py-8">
-          <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
-            </p>
-          </div>
-        </div>
+        {/* <div className="bg-primary/10 py-8">
+          <div className="container"> */}
+            {/* <p className="text-center text-base text-body-color dark:text-white">
+              Template by UIdeck and{" "}
+              <a href="https://nextjstemplates.com" rel="nofollow noopener">
+                Next.js Templates
+              </a>
+            </p> */}
+          {/* </div>
+        </div> */}
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
             width="55"
@@ -286,7 +274,7 @@ const Footer = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute left-0 bottom-24 z-[-1]">
+        <div className="absolute bottom-24 left-0 z-[-1]">
           <svg
             width="79"
             height="94"
