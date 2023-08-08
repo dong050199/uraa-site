@@ -19,12 +19,12 @@ const menuData: Menu[] = [
     path: "/products",
     newTab: false,
   },
-  {
-    id: 33,
-    title: "Services",
-    path: "/services",
-    newTab: false,
-  },
+  // {
+  //   id: 33,
+  //   title: "Services",
+  //   path: "/services",
+  //   newTab: false,
+  // },
   {
     id: 3,
     title: "Support",
@@ -33,7 +33,7 @@ const menuData: Menu[] = [
   },{
     id: 3,
     title: "Docs",
-    path: "/docs",
+    path: "https://docs.google.com/document/d/1lPuTPnq6otrTM2H0bHlNPy5_s38-8x3PhTmiA90m-bs/edit?usp=sharing",
     newTab: false,
   }
 ];

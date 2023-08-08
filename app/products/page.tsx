@@ -5,10 +5,10 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 const AboutPage = () => {
   return (
     <>
-      {/* <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      /> */}
+      <Breadcrumb
+        pageName="Our Products"
+        description="We provide free and open source products for community and education."
+      />
       <AboutSectionOne />
       <AboutSectionTwo />
     </>
